@@ -1,11 +1,11 @@
 ## This is a link in my bio project developed with flask using python
 To run the file please run the folowing command:
 ```
-     python3 link_in_bio.py
+      python3 link_in_bio.py
 ```
 *Alternatively* using any other version of python supported (*python3.7.6+*) you can simply type depending on your enviroment variables programmed for python development:
 ```
-    python link_in_bio.py
+     python link_in_bio.py
 ```
 ***
 ## Usage:
