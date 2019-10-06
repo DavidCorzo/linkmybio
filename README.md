@@ -21,7 +21,7 @@ In the terminal you will see something like this:
      * Debugger PIN: 331-127-083
      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
-Press on ctrl/command and click the *http://127.0.0.1:5000/* reference on your terminal.
+Press on ctrl/command and click the *http://127.0.0.1:5000/* reference on your terminal, upon clicking on the reference your default browser should open the project and your should be able to see the link in my bio.
 ***
 ## Finally:
 Use the site as intended and visit all of the links in my bio!
