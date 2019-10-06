@@ -1,0 +1,34 @@
+
+
+div.a {
+    font-size: 25px;
+}
+
+div.b {
+    font-size: large;
+}
+
+div.c {
+    font-size: 150%;
+}
+
+.facebook {
+    background-color: blue;
+    padding: 10px;
+}
+
+.twitter {
+    background-color: cyan;
+    padding: 10px;
+}
+
+.instagram {
+    background-color: darkmagenta;
+    padding: 10px;
+}
+
+.linkedin {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+

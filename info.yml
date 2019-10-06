@@ -1,0 +1,23 @@
+img: "img2.jpg"
+
+name: "David Gabriel Corzo Mcmath"
+
+shortbio: "Good day, i'm a 19 y/o university student currently working on my computer science degree, one of my many passions is to program, sometimes I do struggle a lot but with enough effort and focus I eventually learn to code what I want. Below are my bio links."
+
+links:
+    - facebook:
+        enable: True
+        link: "https://www.facebook.com/davidgabriel.corzo"
+        description: "Facebook"
+    - twitter:
+        enable: True
+        link: "https://twitter.com/david52gabriel"
+        description: "My twitter"
+    - instagram:
+        enable: True
+        link: "https://www.instagram.com/david_gabriel_corzo/?hl=es-la"
+        description: "Instagram"
+    - linkedin:
+        enable: True
+        link: "https://www.linkedin.com/in/david-corzo-323660194/"
+        description: "LinkedIn"
