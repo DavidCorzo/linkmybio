@@ -1,20 +1,12 @@
 from flask import Flask, render_template
-import yaml
+import module
 
 app = Flask(__name__)
 
 
-def open_master(filename='info.yml'):
-    with open(filename, mode='r') as f:
-        try:
-            return yaml.safe_load(f)
-        except yaml.YAMLError as exc:
-            print(f'{exc} error on opening yml')
-
-
 @app.route("/")
 def main_page():
-    master_unfiltered = open_master()
+    master_unfiltered = module.open_master()
     master = {}
     img = None
     shortbio = None
@@ -49,8 +41,6 @@ def main_page():
         if 'shortbio' in key:
             shortbio = values
 
-    # print(master)
-    # print()
     return render_template(
         'template.html',
         name=name,

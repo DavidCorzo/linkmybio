@@ -1,3 +1,9 @@
+## Installing the requirements 
+As you know this app runs with some basic modules that need to be installed with pip, to install them type the following in the terminal (in the current folder directory):
+```
+     pip install -r requirements.txt
+```
+
 ## This is a link in my bio project developed with flask using python
 To run the file please run the folowing command:
 ```
