@@ -1,1 +1,3 @@
 https://github.com/DavidCorzo/linkmybio
+RELEASE:
+https://github.com/DavidCorzo/LinkInBio/tree/FinalVersion
