@@ -1,8 +1,14 @@
 import yaml
+import datetime
 
 
-def check_dates():
-    pass
+def check_dates(end_date):
+    end_date = datetime.date(end_date[0], end_date[1], end_date[2])
+    now = datetime.date.today()
+    if now <= end_date:
+        return True
+    else:
+        return False
 
 
 def open_master(filename='info.yml'):

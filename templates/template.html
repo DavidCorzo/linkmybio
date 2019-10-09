@@ -37,35 +37,54 @@
             <font color="white" style="font-family: Computer Modern">{{ shortbio }}</font>
         </p>
         <div>
+            {% if fb_end_date %}
             {% if fbshow %}
             <form action="{{ fblink }}">
                 <button class="facebook" type="submit" style="font-family: American Typewriter">{{ fbdesc }}</button>
             </form>
             {% endif %}
+            {% endif %}
         </div>
         <br>
         <div>
+            {% if tw_end_date %}
             {% if twshow %}
             <form action="{{ twlink }}">
                 <button class="twitter" type="submit" style="font-family: sans-serif">{{ twdesc }}</button>
             </form>
             {% endif %}
+            {% endif %}
         </div>
         <br>
         <div>
+            {% if ig_end_date %}
             {% if igshow %}
             <form action="{{ iglink }}">
                 <button class="instagram" type="submit" style="font-family: American Typewriter">{{ igdesc }}</button>
             </form>
             {% endif %}
+            {% endif %}
         </div>
         <br>
         <div>
+            {% if li_end_date %}
             {% if lishow %}
 
             <form action="{{ lilink }}">
                 <button class="linkedin" type="submit" style="font-family: American Typewriter">{{ lidesc }}</button>
             </form>
+            {% endif %}
+            {% endif %}
+        </div>
+        <br>
+        <div>
+            {% if gh_end_date %}
+            {% if ghshow %}
+
+            <form action="{{ ghlink }}">
+                <button class="github" type="submit" style="font-family: American Typewriter">{{ ghdesc }}</button>
+            </form>
+            {% endif %}
             {% endif %}
         </div>
     </center>

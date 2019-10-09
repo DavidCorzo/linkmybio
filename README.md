@@ -1,3 +1,6 @@
+## Preliminary Considerations
+The links thave an end date set in the .yml file, if you don't see something it's probabli because the link has expired, to see it do feel welcome to edit the yml file, I will upload it with all links enabled until the 17 of october 2019.
+
 ## Installing the requirements 
 As you know this app runs with some basic modules that need to be installed with pip, to install them type the following in the terminal (in the current folder directory):
 ```
@@ -31,3 +34,4 @@ Press on ctrl/command and click the *http://127.0.0.1:5000/* reference on your t
 ***
 ## Finally:
 Use the site as intended and visit all of the links in my bio!
+
